@@ -54,7 +54,7 @@ function start() {
     next();
 }
 
-// The game ends when the timer is stopped
+// The game ends when the timer is stopped or they've answered all of the questions
 function endGame() {
     clearInterval(timer);
 
@@ -67,7 +67,7 @@ function endGame() {
 
         document.getElementById("quizBody").innerHTML = quizContent;
 }
-
+//Adds score to local storage
 function setScore() {
     localStorage.setItem("highscore", score);
     localStorage.setItem("highscoreName", document.getElementById('name').value);
@@ -128,7 +128,7 @@ function correct() {
     score += 20;
     next()
 }
-// This function loopos through the questions
+// This function loops through the questions
 function next() {
     currentQuestion++;
 
