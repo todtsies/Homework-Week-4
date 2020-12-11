@@ -41,8 +41,8 @@ main {
 }
 
 #container {
-    width: 500px;
-    max-width: 50%;
+    width: 600px;
+    max-width: 60%;
     background-color: rgb(49, 132, 204);
     border-radius: 5px;
     padding: auto;
@@ -80,6 +80,4 @@ h3 {
     font-weight: 75;
 }
 
-#quiz {
-    text-align: center;
-}
+
