@@ -79,7 +79,7 @@ function getScore() {
     <h2>` + localStorage.getItem("highscoreName") + `'s highscore is:</h2>
     <h1>` + localStorage.getItem("highscore") + `</h1><br>
 
-    <button onclick="clearScore()">Clear score!</button><button onclick="resetGame()">Play again!</button>
+    <button onclick="clearScore()">Clear score</button><button onclick="resetGame()">Play again!</button>
     
     `;
 
