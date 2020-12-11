@@ -128,7 +128,7 @@ function correct() {
     score += 20;
     next()
 }
-
+// This function loopos through the questions
 function next() {
     currentQuestion++;
 
